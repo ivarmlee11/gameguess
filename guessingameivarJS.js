@@ -28,9 +28,9 @@ question5(ans5);
 
       if (arrayAffirmativeAnswers.indexOf(gameQ1) > -1) {
         score += 1;
-        ans1.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
+        ans1.innerHTML = '<img src="bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
       } else {
-        ans1.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
+        ans1.innerHTML = '<img src="redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
         console.log('The user answered incorrectly, Ivar was born in Alaska.' + gameQ1);
       }
   }
@@ -40,9 +40,9 @@ question5(ans5);
 
       if (arrayAffirmativeAnswers.indexOf(gameQ2) > -1) {
       score += 1;
-      ans2.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
+      ans2.innerHTML = '<img src="bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
       } else {
-      ans2.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
+      ans2.innerHTML = '<img src="redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
       console.log('The user answered incorrectly, his last name is Lee.' + gameQ2);}
   }
 
@@ -52,9 +52,9 @@ question5(ans5);
 
       if (arrayAffirmativeAnswers.indexOf(gameQ3) > -1) {
       score += 1;
-      ans3.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
+      ans3.innerHTML = '<img src="bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
       } else {
-      ans3.innerHTML ='<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
+      ans3.innerHTML ='<img src="redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
       console.log('The user answered incorrectly, he is 28.' + gameQ3);}
   }
     var ans4 = document.getElementById('answer4');
@@ -63,20 +63,20 @@ question5(ans5);
 
       if (arrayAffirmativeAnswers.indexOf(gameQ4) > -1) {
       score += 1;
-      ans4.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
+      ans4.innerHTML = '<img src="bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
       } else {
-      ans4.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
+      ans4.innerHTML = '<img src="redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
       console.log('The user answered incorrectly, he is 28.' + gameQ4);}
   }
-    var ans5 = document.getElementById('answer4');
+    var ans5 = document.getElementById('answer5');
   function question5() {
     var gameQ5 = prompt('Guess the secret number between 1 and 3');
 
       if (arrayAffirmativeAnswers.indexOf(gameQ5) > -1) {
       score += 1;
-      ans5.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
+      ans5.innerHTML = '<img src="bullseye.png" width=200px height=200px><p class="correct">Correct!</p>';
       } else {
-      ans5.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
+      ans5.innerHTML = '<img src="redX.png" width=200px height=200px><p class="incorrect">Incorrect!</p>';
       console.log('The user answered incorrectly, the secret number was 1' + gameQ5);}
   }
 
