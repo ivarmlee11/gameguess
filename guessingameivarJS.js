@@ -28,9 +28,9 @@ question5(ans5);
 
       if (arrayAffirmativeAnswers.indexOf(gameQ1) > -1) {
         score += 1;
-        ans1.innerHTML = 'CORRECT!';
+        ans1.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px>Correct!';
       } else {
-        ans1.innerHTML = 'HE WAS!';
+        ans1.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px>Incorrect!';
         console.log('The user answered incorrectly, Ivar was born in Alaska.' + gameQ1);
       }
   }
@@ -40,9 +40,9 @@ question5(ans5);
 
       if (arrayAffirmativeAnswers.indexOf(gameQ2) > -1) {
       score += 1;
-      ans2.innerHTML = 'CORRECT!';
+      ans2.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px>Correct!';
       } else {
-      ans2.innerHTML = 'IT IS!';
+      ans2.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px>Incorrect!';
       console.log('The user answered incorrectly, his last name is Lee.' + gameQ2);}
   }
 
@@ -52,9 +52,9 @@ question5(ans5);
 
       if (arrayAffirmativeAnswers.indexOf(gameQ3) > -1) {
       score += 1;
-      ans3.innerHTML = 'CORRECT!';
+      ans3.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px>Correct!';
       } else {
-      ans3.innerHTML = 'HE IS!';
+      ans3.innerHTML ='<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px>Incorrect!';
       console.log('The user answered incorrectly, he is 28.' + gameQ3);}
   }
     var ans4 = document.getElementById('answer4');
@@ -63,9 +63,9 @@ question5(ans5);
 
       if (arrayAffirmativeAnswers.indexOf(gameQ4) > -1) {
       score += 1;
-      ans4.innerHTML = 'CORRECT!';
+      ans4.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px>Correct!';
       } else {
-      ans4.innerHTML = 'IT IS!';
+      ans4.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px>Incorrect!';
       console.log('The user answered incorrectly, he is 28.' + gameQ4);}
   }
     var ans5 = document.getElementById('answer4');
@@ -74,9 +74,9 @@ question5(ans5);
 
       if (arrayAffirmativeAnswers.indexOf(gameQ5) > -1) {
       score += 1;
-      ans5.innerHTML = 'CORRECT!';
+      ans5.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/bullseye.png" width=200px height=200px>Correct!';
       } else {
-      ans5.innerHTML = 'IT IS 1!';
+      ans5.innerHTML = '<img src="C:/Users/Ivar/201d1/gameguess/redX.png" width=200px height=200px>Incorrect!';
       console.log('The user answered incorrectly, the secret number was 1' + gameQ5);}
   }
 
